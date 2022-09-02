@@ -1,0 +1,13 @@
+.navbar nav img{
+    height: 80px;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+}
+.navbar nav input{
+    padding: 10px 150px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
