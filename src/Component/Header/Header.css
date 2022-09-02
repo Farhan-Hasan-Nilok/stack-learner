@@ -1,13 +1,91 @@
 .navbar nav img{
-    height: 80px;
-    max-width: 100%;
+    width: 100px;
+    max-width: 100%; 
+    margin-top: 17px; 
+    margin-left: 30px;
+    margin-right: 20px;
 }
+
 nav{
     display: flex;
 }
+
 .navbar nav input{
-    padding: 10px 150px;
+    padding: 14px 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: hsl(257, 100%, 98%);
+    border: 1px solid #2d1863;
+    outline: none;
+}
+
+.search{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+.nav-links{
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.teach{
+    color: black;
+}
+
+.log-in{
+
+    border: 1px solid black;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.sign-up{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
+
+.cart{
+    color: #1c1d1f;
+}
+
+.cart:hover{
+    color: #5624d0;
+}
+
+.carousel{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.billboard{
+    position: absolute;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    color: #1c1d1f;
+    background-color: white;
     margin-left: 80px;
-    border-radius: 20px;
+    margin-top: 70px;
+    padding: 2.1rem;
+    max-width: 40%;
+}
+
+.billboard h1{
+   font-family: 'Meriweather';
+   font-weight: 600;
+}
+
+.billboard p{
+    font-size: 20px;
 }
 
