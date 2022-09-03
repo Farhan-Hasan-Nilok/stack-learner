@@ -50,6 +50,16 @@ const Header = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <div>
+                <div className='heading'>
+                    <h1 className='title'>A broad selection of course</h1>
+                    <p>Choose from 204,000 online video courses with new additions published every month.</p>
+                </div>
+
+                <div>
+                    <h3 className='title'>Courses</h3>
+                </div>
+            </div>
         </div>
     );
 };
