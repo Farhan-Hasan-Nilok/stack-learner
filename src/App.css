@@ -1,0 +1,7 @@
+.course-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 150px;
+    text-align: center;
+    padding: 70px;
+}

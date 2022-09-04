@@ -1,0 +1,17 @@
+.course img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.course{
+    padding: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.course img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}

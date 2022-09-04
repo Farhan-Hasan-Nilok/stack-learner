@@ -4,9 +4,9 @@ const Course = (props) => {
     console.log(props.course.img);
     const {name, instructor, img } = props.course
     return (
-        <div>
+        <div className='course'>
             <img src={img} alt="" />
-            <h5>helloi</h5>
+            <p>{name}</p>
         </div>
     );
 };
