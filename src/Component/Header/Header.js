@@ -57,7 +57,7 @@ const Header = () => {
                 </div>
 
                 <div>
-                    <h3 className='title'>Courses</h3>
+                    <h2 className='title'>Courses</h2>
                 </div>
             </div>
         </div>

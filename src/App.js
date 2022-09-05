@@ -14,7 +14,10 @@ function App() {
     { name: 'Complete JavaScript Course', price: 64.99, rating: 4.3, instructor: 'Stephane Maarek', img: '/courses/javascript complete course.png'},
     { name: 'Web Developer Bootcamp', price: 74.99, rating: 4.5, instructor: 'Abrar Hussain', img: '/courses/web development bootcamp.jpg'},
     { name: 'Python for Machine Learning', price: 90.99, rating: 4.7, instructor: 'Andrew Colson', img: '/courses/python machine learning.png'},
-    { name: 'Angular Bootcamp', price: 84.99, rating: 4.4, instructor: 'Hamded Mosh', img: '/courses/angular bootcamp.jpg'},
+    { name: 'Angular Bootcamp', price: 82.99, rating: 4.4, instructor: 'Hamded Mosh', img: '/courses/angular bootcamp.jpg'},
+    { name: 'NodeJs Complete Guide', price: 89.99, rating: 4.5, instructor: 'Maven Edwin', img: '/courses/nodejs.png'},
+    { name: 'Mongo DB From Scratch', price: 84.99, rating: 4.6, instructor: 'Josh Russo', img: '/courses/mongo.jpg'},
+    { name: 'Java From Zero to Hero', price: 84.99, rating: 4.4, instructor: 'Cris Bynor', img: '/courses/java.png'},
   
   ]
   return (
@@ -25,7 +28,6 @@ function App() {
           courses.map(course => <Course course={course}></Course>)
         }
      </div>
-     {/* <img src={python1} alt="" /> */}
     </div>
     
   );

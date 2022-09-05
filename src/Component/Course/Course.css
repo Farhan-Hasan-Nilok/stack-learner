@@ -4,14 +4,43 @@
 }
 
 .course{
-    padding: auto;
-    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
 }
 
-.course img:hover{
+.course:hover img{
     transform: scale(1.1);
     transition: 0.6s;
+}
+
+.course span{
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    float: left;
+}
+
+.course .teacher{
+    color: gray;
+}
+
+.star{
+    color: #FFC014;
+}
+
+.course button{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background-color: #5624d0;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.course button:hover{
+    background-color: #2d1863;
 }
