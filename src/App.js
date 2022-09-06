@@ -2,6 +2,7 @@
 import './App.css';
 import Course from './Component/Course/Course';
 import Header from './Component/Header/Header';
+import Teacher from './Component/Teacher/Teacher';
 // import python from '/public/courses/python programing.png'
 function App() {
   // const python1 = require('/courses/python programing.png');
@@ -27,6 +28,9 @@ function App() {
         {
           courses.map(course => <Course course={course}></Course>)
         }
+     </div>
+     <div className="teacher">
+      <Teacher></Teacher>
      </div>
     </div>
     

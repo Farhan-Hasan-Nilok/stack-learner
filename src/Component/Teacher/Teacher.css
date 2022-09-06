@@ -1,0 +1,29 @@
+.wrapper{
+    padding: 7rem;
+}
+
+.instructor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: center;
+    margin: 0 9rem 0 0;
+}
+
+
+.info h3{
+    font-family: 'Meriweather';
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.des{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
