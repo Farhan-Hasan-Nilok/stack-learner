@@ -1,11 +1,11 @@
 
+import { useState } from 'react';
 import './App.css';
 import Course from './Component/Course/Course';
 import Header from './Component/Header/Header';
 import Teacher from './Component/Teacher/Teacher';
-// import python from '/public/courses/python programing.png'
+
 function App() {
-  // const python1 = require('/courses/python programing.png');
   const courses = [
     { name: 'Python Programming Course', price: 84.99, rating: 4.4, instructor: 'The Codex', img: '/courses/python programing.png'},
     {name: 'Python for Data Analysis', price: 85.99, rating: 4.7, instructor: 'Jose Portila', img: '/courses/python data analysis.jpg'},

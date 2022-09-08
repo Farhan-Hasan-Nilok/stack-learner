@@ -1,7 +1,6 @@
 import React from 'react';
 import './Teacher.css';
 import teacher from '../../images/instructor.jpg';
-import illus from '../../images/illus.jpg';
 const Teacher = () => {
     return (
         <div className='wrapper'>

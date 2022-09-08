@@ -21,7 +21,7 @@ const Header = () => {
                 <a href="./teach" className='nav-links teach'>Teach on Udemy</a>
                 <a href="./log-in" className='nav-links log-in'>Log in</a>
                 <a href="./sign" className='nav-links sign-up'>Sign up</a>
-                <a href="./cart" className='nav-links cart'><FontAwesomeIcon icon={ faShoppingCart} size="lg" /></a>
+                <a href="./cart" className='nav-links cart'><FontAwesomeIcon icon={ faShoppingCart} size="lg" /><span className='cart-num'>0</span></a>
             </nav>
             <div className='carousel'>
                 <Carousel>
