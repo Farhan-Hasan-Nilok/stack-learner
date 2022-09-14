@@ -9,7 +9,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-const Header = () => {
+const Header = (props) => {
+    const cart = props.cart;
     return (
         <div className='navbar'>
             <nav>
@@ -21,7 +22,7 @@ const Header = () => {
                 <a href="./teach" className='nav-links teach'>Teach on Udemy</a>
                 <a href="./log-in" className='nav-links log-in'>Log in</a>
                 <a href="./sign" className='nav-links sign-up'>Sign up</a>
-                <a href="./cart" className='nav-links cart'><FontAwesomeIcon icon={ faShoppingCart} size="lg" /><span className='cart-num'>0</span></a>
+                <a href="./cart" className='nav-links cart'><FontAwesomeIcon icon={ faShoppingCart} size="lg" /><span className='cart-num'>{cart.length}</span></a>
             </nav>
             <div className='carousel'>
                 <Carousel>
